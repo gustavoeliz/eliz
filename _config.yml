@@ -1,16 +1,11 @@
 title: My Website
 description: Portfolio and projects of Your Name
-remote_theme:  pages-themes/cayman
+remote_theme: pages-themes/cayman
 
-# Enable GitHub Pages plugin
 plugins:
   - jekyll-remote-theme
-  
+  - jekyll-seo-tag   # improves Google visibility
 
-# Set navigation order
-nav_order: 1
-
-# Add your navigation structure (optional override)
 nav:
   - title: "Home"
     url: /
@@ -21,7 +16,10 @@ nav:
   - title: "Contact"
     url: /contact
 
-# Optional extras
 color_scheme: light
 logo: /assets/logo.png
 search_enabled: true
+
+# Social links (shows up in SEO + footer depending on theme)
+github_username: yourusername
+linkedin_username: yourlinkedin
